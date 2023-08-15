@@ -10,5 +10,4 @@ const user = {
 };
 module.exports = { teste, person, user };
 
-exports.example = function () {};
-
+// exports.example = function () {};

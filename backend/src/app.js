@@ -4,7 +4,7 @@ const { teste, user, person } = require("./helpers");
 const app = express();
 
 app.get("/", function (request, response) {
-  response.send(teste(), user.name);
+  response.send(teste());
 });
 
 app.listen(3000);
